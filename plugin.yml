@@ -1,0 +1,15 @@
+name: MistfireJail
+version: 3.3.151
+main: me.MistfireWolf.Jail.Main
+description: Jails a player for a certain period of time specified, and only lifts when the player has served their time online.
+commands:
+    jail:
+        description: Jails a specified player.
+    setjail:
+        description: Sets the location of the jail.
+    tpjail:
+        description: Teleports player to the set jail.
+    unjail:
+        description: Unjails a certain player and places them at their last known location.
+    jailtime:
+        description: Checks the time left in jail for a certain player.
